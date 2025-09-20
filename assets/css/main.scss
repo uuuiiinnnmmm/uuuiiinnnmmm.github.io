@@ -1,0 +1,40 @@
+---
+---
+
+// 2. 针对 header 元素进行样式设置
+.site-header {
+  // 设置背景图片路径
+  // **重要:** 路径必须相对于网站根目录
+  background-image: url("/assets/img/header-background.jpg");
+
+  // 让背景图片覆盖整个 header 区域
+  background-size: cover;
+
+  // 设置背景图片的位置，'center center' 表示水平和垂直都居中
+  background-position: center center;
+
+  // 防止背景图片重复平铺
+  background-repeat: no-repeat;
+
+  // 给 header 增加一点边框，使其更有层次感 (可选)
+  border-bottom: 1px solid #e8e8e8;
+}
+
+// (可选，但强烈推荐) 3. 为 header 添加一个半透明的黑色遮罩，让白色文字更清晰
+.site-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3); // 0.3 代表30%的黑色透明度，可以调整
+  z-index: 0; // 确保遮罩在背景之上
+}
+
+// (可选，但强烈推荐) 4. 确保网站标题和导航链接在遮罩之上
+.site-title, .site-nav {
+  position: relative; // 创建新的层叠上下文
+  height: 50px; 
+}
+

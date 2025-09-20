@@ -4,15 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+古人云：“学而不思则罔，思而不学则殆”。在学习机器人学和机器学习的道路上，我深刻体会到，仅仅输入知识是远远不够的。只有通过记录、整理和分享，将脑海中零散的知识点串联成结构化的体系，我才能真正地理解和掌握它们。
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+这个博客便是我整理自己想法的地方。它既是我的个人知识库，记录着我攻克难题的每一个脚印；也是我的数字笔记本，沉淀着我对技术的思考与感悟。如果我的这些记录恰好能为你提供一些帮助或启发，那将是我的荣幸。
